@@ -60,7 +60,7 @@ def css():
         }
         </style>
     """, unsafe_allow_html=True)
-#css()
+css()
 
 col1, col2 = st.columns([1, 4], gap="large")
 
